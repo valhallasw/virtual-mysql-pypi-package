@@ -32,7 +32,7 @@ print("WARNING: `mysql` is a virtual package. Please use `%s` as a dependency di
 
 setup(
     name='mysql',
-    version='0.0.1',
+    version='0.0.2',
     description='Virtual package for MySQL-python',
     long_description=open('README.rst').read(),
     author='Merlijn van Deen',
