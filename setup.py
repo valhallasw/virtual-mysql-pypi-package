@@ -28,16 +28,16 @@ except ImportError:
 import sys
 package = "MySQL-python" if sys.version_info.major < 3 else "mysqlclient"
 
-print("WARNING: `mysql` is a virtual package. Please use `%s` as a dependency directly.\n")
+print("WARNING: `mysql` is a virtual package. Please use `%s` as a dependency directly.\n" % package)
 
 setup(
     name='mysql',
-    version='0.0.2',
+    version='0.0.3',
     description='Virtual package for MySQL-python',
     long_description=open('README.rst').read(),
     author='Merlijn van Deen',
     author_email='valhallasw@arctus.nl',
     install_requires=[package],
-    license=["MIT"],
+    license="MIT",
     url="https://github.com/valhallasw/virtual-mysql-pypi-package",
 )
