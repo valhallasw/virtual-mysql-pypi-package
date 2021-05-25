@@ -2,14 +2,20 @@
 Virtual MySQL-python package
 ----------------------------
 
-This package is a 'virtual package', which requires MySQL-python (Python 2)
-or mysqlclient (Python 3) to install.
-In effect, this means 'pip install mysql' will actually install MySQL-python.
+.. warning::
+    Do not use this package. Instead, directly refer to the `mysqlclient` package.
 
-Instead of depending on this package, please depend on the relevant package
-directly.
+
+This package is a 'virtual package', which requires MySQL-python (Python 2)
+or mysqlclient (Python 3) to install. In effect, this means 'pip install mysql'
+will actually install MySQL-python.
+
+.. note::
+  Instead of depending on this package, please depend on the relevant package
+  directly.
 
 See also:
+
 - https://pypi.python.org/pypi/MySQL-python
 - https://pypi.python.org/pypi/mysqlclient
 
